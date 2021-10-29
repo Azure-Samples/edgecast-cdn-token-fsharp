@@ -1,8 +1,22 @@
-# edgecast-cdn-token-fsharp
+---
+page_type: sample
+languages:
+- csharp
+- fsharp
+products:
+- azure-cdn
+- azure-cdn-verizon
+name: .NET code for generating tokens for "Azure CDN Premium from Verizon" (a.k.a. Edgecast)
+---
 
-This project demonstrates how to generate access tokens for the "Verizon Digital Media Services / Edgecast Content Delivery Network CDN" in .NET. 
+# .NET code for generating tokens for "Azure CDN Premium from Verizon" (a.k.a. Edgecast)
 
-The actual implementation is in .NET in the F# language, so you can easily plug it into your .NET core web app, or call it from F# Interactive. 
+This project demonstrates how to generate access tokens for *Edgecast* in .NET.
+
+> The term "Edgecast" refers to the "Verizon Digital Media Services / Edgecast Content Delivery Network CDN", formally known as the "Azure Content Delivery Network Premium from Verizon" in Azure.
+
+The actual implementation in .NET is F#, so you can easily plug it into your .NET core web app, or call it from F# Interactive. 
+
 It offers a fluent API for both C# and F#, so token creation is self-explanatory.
 
 ## F# interactive sample
@@ -90,9 +104,8 @@ static class Util
 }
 ```
 
-## Links
+## Links for normative documentation
 
 - [Edgecast Token-Based Authentication Administration Guide](https://docs.edgecast.com/pdfs/VDMS_Token-Based_Authentication_Admin_Guide.pdf)
 - [Edgecast Rules Engine v4 User Guide](https://docs.edgecast.com/pdfs/VDMS_Rules_Engine_v4_User_Guide.pdf)
 - [Edgecast "HTTP Large" Admin Guide](https://docs.edgecast.com/pdfs/VDMS_HTTP_Large_Admin_Guide.pdf)
-
