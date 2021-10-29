@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "demoappfsharp": {
+      "commandName": "Project",
+      "commandLineArgs": "--direction Encrypt --key=yyy --ipaddress 128.0.0.1 --urls http://fee http://fee2"
+    }
+  }
+}
