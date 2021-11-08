@@ -6,7 +6,6 @@ languages:
 products:
 - azure
 - azure-cdn
-- azure-cdn-verizon
 name: .NET code for generating tokens for "Azure CDN Premium from Verizon" (a.k.a. Edgecast)
 description: "This sample demonstrates how to generate tokens for 'Azure CDN Premium from Verizon', so only authorized parties can download an asset from the CDN."
 
